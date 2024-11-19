@@ -1,0 +1,5 @@
+# Step 2: Load the Iris Dataset
+# Load the Iris dataset, which is a simple classification dataset
+data = load_iris()
+X = data.data  # Features
+y = data.target  # Target labels
