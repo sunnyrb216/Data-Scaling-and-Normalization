@@ -1,0 +1,15 @@
+import numpy as np
+import pandas as pd
+from sklearn.preprocessing import StandardScaler, MinMaxScaler
+
+# Sample dataset
+data = {
+    'Size (sq ft)': [2500, 1500, 1200, 1800],
+    'Number of Rooms': [4, 3, 2, 3],
+    'Distance to City Center (miles)': [8, 15, 20, 10]
+}
+
+# Convert data to DataFrame
+df = pd.DataFrame(data)
+print("Original Data:")
+df
